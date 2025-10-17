@@ -1,0 +1,66 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(135deg, #89f7fe, #66a6ff); /* Your earlier soft blue gradient */
+    text-align: center;
+    padding: 40px;
+    color: #1d3557;
+}
+
+h1 {
+    color: #003049;
+    margin-bottom: 30px;
+}
+
+form {
+    margin-bottom: 25px;
+}
+
+input {
+    padding: 10px;
+    width: 220px;
+    border: 2px solid #457b9d;
+    border-radius: 8px;
+    outline: none;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #457b9d;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-left: 10px;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background-color: #1d3557;
+}
+
+.download-btn {
+    display: inline-block;
+    margin-top: 10px;
+    text-decoration: none;
+    background-color: #2a9d8f;
+    color: white;
+    padding: 8px 14px;
+    border-radius: 8px;
+    font-size: 14px;
+    transition: background 0.3s ease;
+}
+
+.download-btn:hover {
+    background-color: #1b7f72;
+}
+
+#weatherResult {
+    margin-top: 25px;
+    font-size: 18px;
+    color: #1d3557;
+}
+
+#forecastChart {
+    margin-top: 40px;
+}
+

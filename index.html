@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>🌦️ Weather Forecast Dashboard</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+</head>
+<body>
+    <h1>🌤️ Weather Forecast Dashboard</h1>
+
+    <form id="weatherForm" autocomplete="off">
+        <input type="text" id="city" name="city" placeholder="Enter City Name" required>
+        <button type="submit">Get Weather</button>
+    </form>
+
+    <a href="/download_csv" class="download-btn" target="_blank">📁 Download Weather Data</a>
+
+    <div id="weatherResult"></div>
+    <div id="forecastChart"></div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
+
+
+        
