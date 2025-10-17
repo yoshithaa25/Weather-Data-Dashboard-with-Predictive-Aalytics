@@ -1,8 +1,8 @@
 # 🌦️ Weather-Data-Dashboard-with-Predictive-Aalytics
 
-A simple yet powerful Flask web app that fetches real-time weather data and generates a 5-day forecast using **Linear Regression**.  
-It uses the **OpenWeatherMap API** for live weather and **Plotly.js** for interactive charts.
-
+The **Weather Forecast Dashboard** is a sleek and interactive Flask web application that allows users to fetch real-time weather information for any city and provides a 5-day forecast using **machine learning (Linear Regression)**.  
+This application leverages the **OpenWeatherMap API** for live weather data and visualizes results with **interactive Plotly charts**, displaying both temperature and humidity trends. It also stores data automatically in a CSV file to continuously improve predictions over time.  
+With a clean and modern interface built using **HTML, CSS, and JavaScript**, users can quickly check the weather and view predictive trends in a visually appealing and intuitive format.  
 ---
 
 ## 🚀 Features
@@ -91,17 +91,18 @@ python app.py
 
 ## 🖼️ Example Output
 
-### Enter City (Input Screen)
+### 1️⃣ Enter City (Input Screen)
 
 ![Enter City Screenshot](1st.png)
 
-*Screenshot showing the input page where the user enters the city name (e.g., Hyderabad).*
+*This shows the initial interface of the Weather Forecast Dashboard. Users can enter the name of a city (e.g., Hyderabad) to fetch the current weather and forecast data.*
 
-### Weather & Forecast Results
+### 2️⃣ Weather & Forecast Results
 
 ![Forecast Screenshot](2nd.png)
 
-*Screenshot showing the temperature, humidity, and 5-day forecast for the entered city.*
+*This displays the results after entering a city. It shows the current temperature and humidity, along with a 5-day forecast generated using Linear Regression. The interactive Plotly charts visualize temperature (°C) and humidity (%) trends for better analysis.*
+
 ---
 
 
