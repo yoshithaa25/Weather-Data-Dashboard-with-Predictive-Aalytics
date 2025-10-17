@@ -75,6 +75,17 @@ python app.py
 | Visualization   | Plotly.js                         |
 | API             | OpenWeatherMap                    |
 
+---
+
+## 🧠 How It Works
+
+1. The user enters a city name.  
+2. Flask fetches live weather data from OpenWeatherMap API.  
+3. Data is stored in `weather_data.csv`.  
+4. Linear Regression models predict the next 5 days of **temperature** and **humidity**.  
+5. Forecast is visualized in an interactive Plotly chart with dual Y-axes.
+
+---
 
 
 
