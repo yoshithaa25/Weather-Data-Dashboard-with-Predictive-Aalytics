@@ -39,48 +39,19 @@ weather-forecast-dashboard/
 │
 ├── weather_data.csv        # Auto-created data file
 └── README.md               # Documentation
+```
 
+---
 
-
-```markdown
 ## ⚙️ Installation & Setup
 
 1️⃣ **Clone this repository**  
 
-```bash
+```
 git clone https://github.com/<your-username>/weather-forecast-dashboard.git
 cd weather-forecast-dashboard
+```
 
-2️⃣ **Install dependencies**
-
-```bash
-pip install -r requirements.txt
-
-3️⃣ **Add your OpenWeatherMap API key**
-
-```python
-API_KEY = "YOUR_API_KEY"
-
-4️⃣ **Run the Flask app**
-
-```bash
-python app.py
-
-
----
-
-
-```markdown
-## 🧩 Tech Stack
-
-| Layer           | Technology                        |
-|-----------------|----------------------------------|
-| Backend         | Flask                             |
-| Frontend        | HTML, CSS, JavaScript             |
-| Data Processing | Pandas                            |
-| Machine Learning| scikit-learn (LinearRegression)   |
-| Visualization   | Plotly.js                         |
-| API             | OpenWeatherMap                    |
 
 
 
