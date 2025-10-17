@@ -91,17 +91,17 @@ python app.py
 
 ## 🖼️ Example Output
 
-### Current Weather & Forecast Screenshot
+### Enter City (Input Screen)
 
-![Current Weather & Forecast](1st.png)
+![Enter City Screenshot](1st.png)
 
-*Screenshot showing the current weather and 5-day forecast.*
+*Screenshot showing the input page where the user enters the city name (e.g., Hyderabad).*
 
-### Interactive Charts Screenshot
+### Weather & Forecast Results
 
-![Interactive Charts](2nd.png)
+![Forecast Screenshot](2nd.png)
 
-*Screenshot showing temperature and humidity interactive charts using Plotly.*
+*Screenshot showing the temperature, humidity, and 5-day forecast for the entered city.*
 ---
 
 
