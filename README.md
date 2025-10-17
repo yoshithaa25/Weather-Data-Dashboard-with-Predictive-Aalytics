@@ -14,14 +14,6 @@ It uses the **OpenWeatherMap API** for live weather and **Plotly.js** for intera
 - ✅ Clean, modern UI built with HTML, CSS, and JavaScript
 
 
-## 🧠 How It Works
-
-1. The user enters a city name.  
-2. Flask fetches live weather data from OpenWeatherMap API.  
-3. Data is stored in `weather_data.csv`.  
-4. Linear Regression models predict the next 5 days of **temperature** and **humidity**.  
-5. Forecast is visualized in an interactive Plotly chart with dual Y-axes.
-
 ## 🗂️ Project Structure
 
 ```text
@@ -51,6 +43,41 @@ weather-forecast-dashboard/
 git clone https://github.com/<your-username>/weather-forecast-dashboard.git
 cd weather-forecast-dashboard
 ```
+
+2️⃣ **Install dependencies**
+
+```
+pip install -r requirements.txt
+```
+
+3️⃣ **Add your OpenWeatherMap API key**
+
+```
+API_KEY = "YOUR_API_KEY"
+```
+
+4️⃣ **Run the Flask app**
+
+```
+python app.py
+```
+
+---
+## 🧩 Tech Stack
+
+| Layer           | Technology                        |
+|-----------------|-----------------------------------|
+| Backend         | Flask                             |
+| Frontend        | HTML, CSS, JavaScript             |
+| Data Processing | Pandas                            |
+| Machine Learning| scikit-learn (LinearRegression)   |
+| Visualization   | Plotly.js                         |
+| API             | OpenWeatherMap                    |
+```
+
+
+
+
 
 
 
