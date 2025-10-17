@@ -3,6 +3,7 @@
 A simple yet powerful Flask web app that fetches real-time weather data and generates a 5-day forecast using **Linear Regression**.  
 It uses the **OpenWeatherMap API** for live weather and **Plotly.js** for interactive charts.
 
+---
 
 ## 🚀 Features
 
@@ -13,6 +14,7 @@ It uses the **OpenWeatherMap API** for live weather and **Plotly.js** for intera
 - ✅ Option to download stored weather data
 - ✅ Clean, modern UI built with HTML, CSS, and JavaScript
 
+---
 
 ## 🗂️ Project Structure
 
@@ -85,6 +87,21 @@ python app.py
 4. Linear Regression models predict the next 5 days of **temperature** and **humidity**.  
 5. Forecast is visualized in an interactive Plotly chart with dual Y-axes.
 
+---
+
+## 🖼️ Example Output
+
+### Current Weather & Forecast Screenshot
+
+![Current Weather & Forecast](1st.png)
+
+*Screenshot showing the current weather and 5-day forecast.*
+
+### Interactive Charts Screenshot
+
+![Interactive Charts](2nd.png)
+
+*Screenshot showing temperature and humidity interactive charts using Plotly.*
 ---
 
 
