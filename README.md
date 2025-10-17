@@ -63,6 +63,7 @@ python app.py
 ```
 
 ---
+
 ## 🧩 Tech Stack
 
 | Layer           | Technology                        |
@@ -73,7 +74,7 @@ python app.py
 | Machine Learning| scikit-learn (LinearRegression)   |
 | Visualization   | Plotly.js                         |
 | API             | OpenWeatherMap                    |
-```
+
 
 
 
