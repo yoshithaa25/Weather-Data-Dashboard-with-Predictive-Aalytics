@@ -1,50 +1,88 @@
 # 🌦️ Weather-Data-Dashboard-with-Predictive-Aalytics
 
-![GitHub last commit](https://img.shields.io/github/last-commit/yoshithaa25/weather-forecast-dashboard)
-![GitHub issues](https://img.shields.io/github/issues/yoshithaa25/weather-forecast-dashboard)
-![GitHub stars](https://img.shields.io/github/stars/yoshithaa25/weather-forecast-dashboard)
-![Python](https://img.shields.io/badge/Python-3.11-blue)
+A simple yet powerful Flask web app that fetches real-time weather data and generates a 5-day forecast using **Linear Regression**.  
+It uses the **OpenWeatherMap API** for live weather and **Plotly.js** for interactive charts.
 
-An interactive Flask web application developed by **Yoshitha** that displays real-time weather data and a 5-day forecast using the OpenWeatherMap API.  
-The app visualizes temperature and humidity trends through dynamic Plotly graphs and allows users to download weather data for analysis.
-
-🔗 **GitHub Repository:** [https://github.com/yoshithaa25/weather-forecast-dashboard](https://github.com/yoshithaa25/weather-forecast-dashboard)
-
----
 
 ## 🚀 Features
 
-- ✅ **Live Weather Data** – Fetches real-time temperature and humidity using OpenWeatherMap API  
-- ✅ **5-Day Forecast** – Predicts upcoming temperature and humidity trends using Linear Regression  
-- ✅ **Interactive Graphs** – Uses Plotly for smooth, dual-axis visualizations  
-- ✅ **CSV Data Storage** – Saves each query to `weather_data.csv`  
-- ✅ **Download Option** – Download collected data for further study  
-- ✅ **Clean UI** – Gradient-based responsive design using HTML, CSS, and JavaScript  
+- ✅ Fetches current weather (temperature & humidity) for any city
+- ✅ Uses Linear Regression (scikit-learn) to predict 5-day weather trends
+- ✅ Stores data in CSV automatically for continuous learning
+- ✅ Interactive charts (Temperature & Humidity) using Plotly
+- ✅ Option to download stored weather data
+- ✅ Clean, modern UI built with HTML, CSS, and JavaScript
+
+
+## 🧠 How It Works
+
+1. The user enters a city name.  
+2. Flask fetches live weather data from OpenWeatherMap API.  
+3. Data is stored in `weather_data.csv`.  
+4. Linear Regression models predict the next 5 days of **temperature** and **humidity**.  
+5. Forecast is visualized in an interactive Plotly chart with dual Y-axes.
+
+## 🗂️ Project Structure
+
+```text
+weather-forecast-dashboard/
+│
+├── app.py                  # Flask backend
+├── requirements.txt        # Python dependencies
+│
+├── templates/
+│   └── index.html          # Frontend HTML
+│
+├── static/
+│   ├── style.css           # Styling
+│   └── script.js           # Frontend logic
+│
+├── weather_data.csv        # Auto-created data file
+└── README.md               # Documentation
+
+
+
+```markdown
+## ⚙️ Installation & Setup
+
+1️⃣ **Clone this repository**  
+
+```bash
+git clone https://github.com/<your-username>/weather-forecast-dashboard.git
+cd weather-forecast-dashboard
+
+2️⃣ **Install dependencies**
+
+```bash
+pip install -r requirements.txt
+
+3️⃣ **Add your OpenWeatherMap API key**
+
+```python
+API_KEY = "YOUR_API_KEY"
+
+4️⃣ **Run the Flask app**
+
+```bash
+python app.py
+
 
 ---
 
-## 📊 Demo
 
-![Dashboard Preview](https://via.placeholder.com/800x400?text=Dashboard+Screenshot)  
-*Screenshot placeholder – replace with your own image*
+```markdown
+## 🧩 Tech Stack
 
-🎥 Demo GIF (optional):  
-![Demo GIF](https://via.placeholder.com/800x400?text=Demo+GIF+Placeholder)
-
----
-
-## 🛠️ Tech Stack
-
-| Component       | Technology                        |
+| Layer           | Technology                        |
 |-----------------|----------------------------------|
-| Backend         | Python (Flask)                   |
-| Frontend        | HTML, CSS, JavaScript, Plotly.js |
-| Machine Learning| Scikit-Learn (Linear Regression) |
-| Data Handling   | Pandas                           |
-| API             | OpenWeatherMap                   |
-
----
-
-## 📁 Project Structure
+| Backend         | Flask                             |
+| Frontend        | HTML, CSS, JavaScript             |
+| Data Processing | Pandas                            |
+| Machine Learning| scikit-learn (LinearRegression)   |
+| Visualization   | Plotly.js                         |
+| API             | OpenWeatherMap                    |
 
 
+
+
+   
